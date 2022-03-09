@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="script.js" defer></script>
+    <title>exer</title>
+</head>
+<header id="main-header" class="bg-succes text-white p-4 mb-3">
+    <div class="container">
+        
+        <div class="col-md-6 align-sans-serif">
+            <input type="text" class="form-control" id="filter" placeholder="Search items...">
+        </div>
+    </div>
+    </div>
+</header>
+<div class="container">
+    <div id="main" class="card card-body">
+        <h2 class="title">Add Items</h2>
+ <form class="form-inline mb-3" id="addform">
+<input type="text" class="form-control mr-2" id="enter">
+<input type="submit" class="btn btn-dark" value="Submit">
+        </form>
+        <h2 class="title">Items</h2>
+        <ul class="list-group" id="items">
+  <li class="list-group-item"><button class="btn btn-danger btn-sm float-right delete">X</button>Item1</li>
+  <li class="list-group-item"><button class="btn btn-danger btn-sm float-right delete">X</button>Item2</li> 
+  <li class="list-group-item"><button class="btn btn-danger btn-sm float-right delete">X</button>Item3</li> 
+  <li class="list-group-item"><button class="btn btn-danger btn-sm float-right delete">X</button>Item4</li>  
+        </ul>
+        <br>
+        <button class="btn btn-dark btn-block" id="button">Click here</button>
+        <br>
+        <div class="output" style="width: 200px;height: 200px;" id="warn"></div>
+        <input type="range">
+    </div>
+</div>
+
+</body>
+</html>
